@@ -16,3 +16,9 @@ case scenario. The project consists in three steps :
 TO DO : Containerize the project into a DockerFile.
 
 * All of those previous steps can be found in the ipython notebook in the repository. 
+* The code folder contains the scripts used for :
+- Code
+  |_ hpo.py : hyperparameter tunning
+  |_ train_model.py : train model with profiling and debugging
+  |_ inference.py : functions needed to PyTorchModel estimator performs inferences
+  |_ test_inference.py : simulate inference before deploying model
